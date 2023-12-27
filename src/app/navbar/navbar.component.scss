@@ -1,0 +1,48 @@
+.navbar{
+    width: 100%;
+    height: 10% ;
+}
+
+ul {
+    display: flex;
+}
+
+.mat-toolbar{
+    background: none;
+    padding-left: 60%;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+nav ul{
+    
+    float: right;
+    list-style-type: none;
+    margin-left: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+.mat-button{
+    display: flex;
+    justify-content: space-between;
+}
+.b-home .b-menu .b-about .b-contact{
+    margin-right: 20px;
+}
+ 
+.button{
+    gap: 10px;
+  
+}
