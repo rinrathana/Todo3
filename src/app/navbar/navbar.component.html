@@ -1,37 +1,48 @@
-
 <div class="navbar">
-    <mat-toolbar>
-        <nav>
-            <ul class="button">
-                <div class="b-home">
-                    <button mat-button style="background-color: brown;  border-radius: 15px;">
-                    <li><a [routerLink]="'home'"routerLinkActive="active">Home</a></li>
-    
-                </button>
-                </div>
+  <mat-toolbar>
+    <nav>
+      <ul class="button">
+        <div class="b-home">
+          <button
+            mat-button
+            style="background-color: brown; border-radius: 15px"
+          >
+            <li><a [routerLink]="'home'" routerLinkActive="active">Home</a></li>
+          </button>
+        </div>
 
+        <div class="b-menu">
+          <button
+            mat-button
+            style="background-color: brown; border-radius: 15px"
+          >
+            <li><a [routerLink]="'menu'" routerLinkActive="active">Menu</a></li>
+          </button>
+        </div>
 
-                  <div class="b-menu">  
-                    <button mat-button style="background-color: brown;  border-radius: 15px;">
-                        <li><a [routerLink]="'menu'"  routerLinkActive="active">Menu</a></li>
-                    </button>
-                </div> 
+        <div class="b-about">
+          <button
+            mat-button
+            style="background-color: brown; border-radius: 15px"
+          >
+            <li>
+              <a [routerLink]="'about'" routerLinkActive="active">About</a>
+            </li>
+          </button>
+        </div>
 
-
-                  <div class="b-about">
-                    <button mat-button style="background-color: brown; border-radius: 15px; ">
-                        <li><a [routerLink]="'about'" routerLinkActive="active">About</a></li>
-                    </button>
-                </div> 
-
-
-                <div class="b-contact">
-                    <button mat-button style="background-color: brown; border-radius: 15px; ">
-                    <li><a [routerLink]="'contact'" routerLinkActive="active">Contact</a></li> 
-                </button>
-                </div> 
-            </ul>
-        </nav>
-      </mat-toolbar>
+        <div class="b-contact">
+          <button
+            mat-button
+            style="background-color: brown; border-radius: 15px"
+          >
+            <li>
+              <a [routerLink]="'contact'" routerLinkActive="active">Contact</a>
+            </li>
+          </button>
+        </div>
+      </ul>
+    </nav>
+  </mat-toolbar>
 </div>
-
+<router-outlet></router-outlet>

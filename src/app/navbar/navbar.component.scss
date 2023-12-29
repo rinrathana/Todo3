@@ -1,6 +1,7 @@
 .navbar{
     width: 100%;
-    height: 10% ;
+    height: 11% ;
+    background-color: #84b74e;
 }
 
 ul {
@@ -37,12 +38,18 @@ ul li{
 .mat-button{
     display: flex;
     justify-content: space-between;
+
 }
-.b-home .b-menu .b-about .b-contact{
-    margin-right: 20px;
-}
+// .b-home .b-menu .b-about .b-contact{
+//     margin-right: 20px;
+// }
  
 .button{
     gap: 10px;
   
 }
+mat-card-content{
+    color: black;
+}
+
+

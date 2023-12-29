@@ -5,7 +5,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: black
+  background-color: black;
+  margin-top: -100px;
+  
 }
 
 .layer{
@@ -25,42 +27,17 @@
 
 .content-right{
     color:white;
-    margin-top: -130px;
+    margin-top: -100px;
     padding-left: 70%;
     text-shadow: 4px 4px 5px rgb(0, 204, 255);
     font-family: "italic", sans-serif;
-    font-size: 25px;
-    
-   
-}
-// .mat-button{
-    // text-align: center;
-    // padding: 15px 25px;
-    // cursor: pointer;
-    // background-color: green;
-    // font-size: 24px;
-    // outline: none;
-    // margin-left: 250px;
-    // border-radius: 20px;
-    // box-shadow: 0 8px #999;
-    // border: none;
-    // color: white;
-    // text-shadow: pink;
-// }
-// .button:hover {
-//  background-color: #3e8e41
-// }
-
-// .button:active{ 
-//   background-color: #3e8e7a;
-//   box-shadow: 0 5px #666;
-//   transform: translateY(4px);
-// }  
-.mat-button{
-    cursor: pointer;
-    // color: rgb(14, 130,130);
-    // background-color: blueviolet;
+    font-size: 25px;  
 } 
+
+// .mat-button{
+    // cursor: pointer;
+  
+// } 
 
 
 
